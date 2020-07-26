@@ -11,7 +11,7 @@ apply plugin: "androidx.navigation.safeargs"
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.devtides.dogs"
+        applicationId "com.example.goalmaker.MainActivity"
         minSdkVersion 15
         targetSdkVersion 28
         versionCode 1
@@ -25,7 +25,7 @@ android {
         }
     }
 
-    dataBinding.enabled = true
+    buildFeatures.dataBinding
 }
 
 def lifeCycleExtensionVersion = '1.1.1'
